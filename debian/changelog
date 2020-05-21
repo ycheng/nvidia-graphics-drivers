@@ -1,3 +1,9 @@
+nvidia-graphics-drivers-440 (440.91-0ubuntu1) focal; urgency=medium
+
+  * upstream 440.91
+
+ -- YC Cheng <yc.cheng@canonical.com>  Thu, 21 May 2020 14:07:10 +0800
+
 nvidia-graphics-drivers-440 (440.82.0-0ubuntu2) groovy; urgency=medium
 
   * debian/templates/control.in:
