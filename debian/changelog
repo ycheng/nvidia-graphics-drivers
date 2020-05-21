@@ -1,8 +1,11 @@
-nvidia-graphics-drivers-440-server (440.64.00-0ubuntu0~0.18.04.2) UNRELEASED; urgency=medium
+nvidia-graphics-drivers-440-server (440.64.00-0ubuntu0~0.18.04.2) bionic; urgency=medium
 
-  * 
+  * debian/rules: expose the debian version
+  * debian/templates/control.in: add Conflicts: libnvidia-extra
+  * debian/templates/control.in: add nvidia-kernel-common dependency
+  * debian/templates/nvidia-kernel-common-flavour.install.in: reorder lines
 
- -- Alberto Milone <alberto.milone@canonical.com>  Thu, 21 May 2020 15:06:12 +0200
+ -- Alberto Milone <alberto.milone@canonical.com>  Thu, 21 May 2020 15:08:12 +0200
 
 nvidia-graphics-drivers-440-server (440.64.00-0ubuntu0~0.18.04.1) bionic; urgency=medium
 
