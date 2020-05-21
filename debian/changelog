@@ -1,8 +1,12 @@
-nvidia-graphics-drivers-418-server (418.126.02-0ubuntu0~0.18.04.2) UNRELEASED; urgency=medium
+nvidia-graphics-drivers-418-server (418.126.02-0ubuntu0~0.18.04.2) bionic; urgency=medium
 
-  * 
+  * debian/rules: expose the debian version
+  * debian/templates/control.in: add nvidia-kernel-common dependency
+  * Override 40-vm-hotadd.rules on ppc64el, and start nvidia-persistenced as root
+  * debian/templates/nvidia-kernel-common-flavour.install.in: reorder lines
+  * Refresh files from templates
 
- -- Alberto Milone <alberto.milone@canonical.com>  Thu, 21 May 2020 15:42:55 +0200
+ -- Alberto Milone <alberto.milone@canonical.com>  Thu, 21 May 2020 15:44:08 +0200
 
 nvidia-graphics-drivers-418-server (418.126.02-0ubuntu0~0.18.04.1) bionic; urgency=medium
 
