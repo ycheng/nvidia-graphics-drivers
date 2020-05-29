@@ -1,3 +1,9 @@
+nvidia-graphics-drivers-440 (440.99-0ubuntu1) focal; urgency=medium
+
+  * upstream 440.99
+
+ -- Yuan-Chen Cheng <yc.cheng@canonical.com>  Fri, 29 May 2020 10:13:01 +0800
+
 nvidia-graphics-drivers-440 (440.91-0ubuntu1) focal; urgency=medium
 
   * upstream 440.91

@@ -1,2 +1,2 @@
-debian/dkms.conf                    usr/src/nvidia-440.91
-debian/dkms_nvidia/patches/*        usr/src/nvidia-440.91/patches
+debian/dkms.conf                    usr/src/nvidia-440.99
+debian/dkms_nvidia/patches/*        usr/src/nvidia-440.99/patches
